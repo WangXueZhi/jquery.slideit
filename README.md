@@ -1,12 +1,14 @@
 easySlide.js
 ============
 v1.0
+------------
 
 The JavaScript code about thouch to slide. 
 Based on jquery or zepto for Mobile Development.
+------------------------------------------------
 
 How to use
-
+-------------------------------------------------
 1.Import jquery or zepto
 exp:<script type="text/javascript" src="zepto.js"></script>
 2.Import easySlide.js
