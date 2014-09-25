@@ -9,8 +9,9 @@ easySlide.js v1.0
 ### 1.引入jquery或zepto
 	<script type="text/javascript" src="zepto.js"></script>
 
-### 2.引入 easySlide.js
+### 2.引入 easySlide.js和easySlide.css
 	<script type="text/javascript" src="easySlide.js"></script>
+	<link rel="stylesheet" type="text/css" href="easySlide.css"/>
 	
 ### 3.Html代码和执行方法
 	<div id="main">
@@ -31,8 +32,11 @@ How to use？
 -------------------------------------------------
 ### 1.Import jquery or zepto
 	<script type="text/javascript" src="zepto.js"></script>
-### 2.Import easySlide.js
+	
+### 2.Import easySlide.js&easySlide.css
 	<script type="text/javascript" src="easySlide.js"></script>
+	<link rel="stylesheet" type="text/css" href="easySlide.css"/>
+	
 ### 3.Html code and run the function
 	<div id="main">
 		<div class="sec" id="sec1"></div>
