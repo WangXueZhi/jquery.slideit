@@ -2,7 +2,7 @@
    easySlide.js 
    v1.0
    Based on jquery or zepto for Mobile Development.
-   王学智
+   xueZhi
    41787371@qq.com
 */
 function easySlide(selector, section, num, restart) {
