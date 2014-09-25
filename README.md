@@ -33,7 +33,7 @@ How to use？
 ### 1.Import jquery or zepto
 	<script type="text/javascript" src="zepto.js"></script>
 	
-### 2.Import easySlide.js&easySlide.css
+### 2.Import easySlide.js & easySlide.css
 	<script type="text/javascript" src="easySlide.js"></script>
 	<link rel="stylesheet" type="text/css" href="easySlide.css"/>
 	
