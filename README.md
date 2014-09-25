@@ -1,7 +1,7 @@
 easySlide.js v1.0
 ======
 
-基于jquery或zepto的插件，用于移动端开发。
+基于jquery或zepto的切屏插件，用于移动端开发。
 ------
 
 如何使用？
