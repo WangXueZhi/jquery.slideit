@@ -6,9 +6,9 @@ easySlide.js v1.0
 
 如何使用？
 -------------------------------------------------
-###1.引入jquery或zepto
-exp:
-<script type="text/javascript" src="zepto.js"></script>
+### 1.引入jquery或zepto
+### exp:
+	<script type="text/javascript" src="zepto.js"></script>
 
 2.Import easySlide.js
 exp:<script type="text/javascript" src="easySlide.js"></script>
