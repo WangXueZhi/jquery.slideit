@@ -24,6 +24,7 @@ easySlide.js v1.0
 		easySlide('#main','.sec',0.1,true);
 	</script>
 
+### DEMO在最下面
 
 The JavaScript code about thouch to slide. Based on jquery or zepto for Mobile Development.
 ------
@@ -47,3 +48,6 @@ How to use？
 		/*easySlide(mainView,subView,(0-1),ifRestart)*/
 		easySlide('#main','.sec',0.1,true);
 	</script>
+
+### DEMO  
+![github](http://www.le-qx.com/jstoo/easyslide/demo.png "github") 
