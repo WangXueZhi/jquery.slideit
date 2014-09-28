@@ -3,7 +3,7 @@
    v1.0
    Based on jquery or zepto for Mobile Development.
    xueZhi
-   41787371@qq.com
+   417787371@qq.com
 */
 function easySlide(selector, section, num, restart) {
 	$(selector).addClass('easyMainView');
