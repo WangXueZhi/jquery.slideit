@@ -1,4 +1,4 @@
-easySlide.js v1.1
+easySlide.js v1.2
 ======
 
 基于jquery或zepto的切屏插件，用于移动端开发。
@@ -20,8 +20,10 @@ easySlide.js v1.1
 		<div class="sec" id="sec3"></div>
 	</div>
 	<script>
-		/*easySlide(mainView,subView,(0-1),ifRestart)*/
-		easySlide('#main','.sec',0.1,true);
+		var easySlide = new easySlide();
+		easySlide.run('#main','.sec',0.1,true,function(page){
+			console.log(page); //返回当前的页数	
+		});
 	</script>
 
 
@@ -46,8 +48,10 @@ How to use？
 		<div class="sec" id="sec3"></div>
 	</div>
 	<script>
-		/*easySlide(mainView,subView,(0-1),ifRestart)*/
-		easySlide('#main','.sec',0.1,true);
+		var easySlide = new easySlide();
+		easySlide.run('#main','.sec',0.1,true,function(page){
+			console.log(page); //return back the index of the current page	
+		});
 	</script>
 
 ### DEMO  
