@@ -1,4 +1,4 @@
-easySlide.js v1.0
+easySlide.js v1.1
 ======
 
 基于jquery或zepto的切屏插件，用于移动端开发。
