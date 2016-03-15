@@ -57,6 +57,6 @@ How to use？
 	        time:500
 	    });
 	</script>
-	
+
 ### DEMO  
-![github](http://www.lc-qx.com/jstoo/easyslide/demo.png "github") 
+![github](http://www.lc-qx.com/jstoo/easyslide/demo1.png "github") 
