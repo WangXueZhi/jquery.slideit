@@ -12,7 +12,7 @@ $.fn.slideit = function (option) {
 
 	var view = {};
 
-	view.list = _this.children('.slideView');
+	view.list = _this.children('section');
 
 	view.length = view.list.length;
 
@@ -40,6 +40,20 @@ $.fn.slideit = function (option) {
 	updateState();
 	
 	_this.empty().append($(view.active)).append($(view.next));
+
+	_this.on('touchstart',function(e){
+		if(!canTouch){
+			return;
+		}
+
+		view.touch.start = e.originalEvent.targetTouches[0].pageY;	
+		console.info(view.touch.start)
+
+		$(document).on('touchmove',moving);
+		$(document).on('touchend',movingEnd);
+
+		return;
+	})
 	
 	function updateIndex(forwards){
 		forwards ? view.index.active++ : view.index.active--;
@@ -50,7 +64,7 @@ $.fn.slideit = function (option) {
 	}
 
 	function updateDom(forwards){
-		$('.slideView').not('.inview').remove();
+		_this.find('section').not('.inview').remove();
 		if(view.index.next&&forwards){
 			_this.append($(view.list[view.index.next]));
 		}
@@ -77,20 +91,6 @@ $.fn.slideit = function (option) {
 			$(view.next).addClass('next inview');
 		}
 	}
-
-	_this.on('touchstart',function(e){
-		if(!canTouch){
-			return;
-		}
-
-		view.touch.start = e.originalEvent.targetTouches[0].pageY;	
-		console.info(view.touch.start)
-
-		$(document).on('touchmove',moving);
-		$(document).on('touchend',movingEnd);
-
-		return;
-	})
 
 	function moving(e){
 		view.touch.current = e.originalEvent.targetTouches[0].pageY;
