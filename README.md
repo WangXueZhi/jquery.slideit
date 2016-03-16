@@ -28,8 +28,8 @@ jquery.slideit.js
 	    });
 	</script>
 ### 4.参数说明
-	range<Number>: 换屏界限 单位:px
-	time<Number>: 换屏时间 单位:ms
+	range {Number} 换屏界限 px
+	time {Number} 换屏时间 ms
 
 ### EN
 
